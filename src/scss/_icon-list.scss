@@ -1,0 +1,23 @@
+// mis estilos
+.p-fila{
+  display: flex;
+}
+.celda{
+  border: 1px solid;
+  border-radius: 0.150rem;
+  border-color: black;
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  background-color: #111111;
+}
+.boton{
+  padding: 5%;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+#panel{
+  border: 1px solid;
+  width: 300px; 
+  padding: 2px;
+}
