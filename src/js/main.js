@@ -12,9 +12,14 @@ document.querySelectorAll('[data-bs-toggle="popover"]')
   .forEach(popover => {
     new Popover(popover)
   })
-
+  console.log(panel.matriz);
+console.log(panel.nuevaPieza);
+/* 
   console.log(panel.pintaPanel());
 
   const modelo = 0
   const pieza = new  ModeloPieza(modelo)
-  console.log(pieza);
+  console.log(pieza); */
+
+
+  //para detectar que pulsas un boton key down en el addEventListener
