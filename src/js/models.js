@@ -43,13 +43,5 @@ export const models = [
                 [1,1]
             ]
         ]
-    },
-    {
-        nombre:'Ele',
-        matriz: [
-            [
-                [0, 0, 1],
-                [1, 1, 1]
-            ], [], [], []]
     }
 ]

@@ -6,20 +6,20 @@ import { Dropdown, Offcanvas, Popover } from 'bootstrap';
 import { panel } from './panel';
 import { ModeloPieza } from './ModeloPieza.js';
 
+// Llamo a las funciones
 
-// Create an example popover
-document.querySelectorAll('[data-bs-toggle="popover"]')
-  .forEach(popover => {
-    new Popover(popover)
-  })
-  console.log(panel.matriz);
-console.log(panel.nuevaPieza);
-/* 
-  console.log(panel.pintaPanel());
+panel.pintaPanel()
 
-  const modelo = 0
-  const pieza = new  ModeloPieza(modelo)
-  console.log(pieza); */
+panel.crearNuevaPieza()
+
+panel.insertarPieza()
+
+panel.pintaPanel()
+
+panel.controlTeclas()
+
+document.getElementById('jugar').addEventListener("click", panel.iniciarMovimiento)
+
 
 
   //para detectar que pulsas un boton key down en el addEventListener
